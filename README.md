@@ -24,6 +24,10 @@ The app includes an interactive quiz that analyzes user input and provides a rou
 
 This project follows the **MVVM** architecture pattern to separate UI, business logic, and data models.
 
+## Demo
+
+<img src="skincareapp.gif" width="200">
+
 ## Future Improvements
 
 - API integration
