@@ -1,0 +1,64 @@
+
+
+[
+  {
+    "id": "cleanser_1",
+    "name": "Gentle Hydrating",
+    "category": "Cleanser",
+    "description": "Removes impurities without stripping natural oils",
+    "rating" : "4.8",
+    "noOfRaters" : "2453",
+    "price": "24",
+    "imageName": "cream"
+  },
+  {
+    "id": "toner_1",
+    "name": "Balancing Toner",
+    "category": "Toner",
+    "description": "Restores pH balance and preps skin",
+    "rating" : "4.6",
+    "noOfRaters" : "1829",
+    "price": "18",
+    "imageName": "cream"
+  },
+  {
+    "id": "vitaminc_1",
+    "name": "Vitamin C",
+    "category": "Serum",
+    "description": "Reduces dark spots and evens skin tone",
+    "rating" : "4.9",
+    "noOfRaters" : "3621",
+    "price": "42",
+    "imageName": "cream"
+  },
+  {
+    "id": "lightweightday_1",
+    "name": "Lightweight Day",
+    "category": "Moisturizer",
+    "description": "Non-greasy hydration for all-day comfort",
+    "rating" : "4.7",
+    "noOfRaters" : "2156",
+    "price": "32",
+    "imageName": "cream"
+  },
+  {
+    "id": "sunscreen_1",
+    "name": "Mineral Sunscreen SPF",
+    "category": "Sunscreen",
+    "description": "Broad spectrum protection, no white cast",
+    "rating" : "4.8",
+    "noOfRaters" : "4102",
+    "price": "28",
+    "imageName": "cream"
+  },
+  {
+    "id": "cream_1",
+    "name": "Nourishing Night Cream",
+    "category": "Night Cream",
+    "description": "Rich overnight repair and hydration",
+    "rating" : "4.7",
+    "noOfRaters" : "1943",
+    "price": "38",
+    "imageName": "cream"
+  }
+]

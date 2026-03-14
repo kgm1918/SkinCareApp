@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8350B0422F5F399400A0A453 /* SkinCare_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0412F5F399400A0A453 /* SkinCare_AppApp.swift */; };
+		8350B0442F5F399400A0A453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0432F5F399400A0A453 /* ContentView.swift */; };
+		8350B0462F5F399800A0A453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8350B0452F5F399800A0A453 /* Assets.xcassets */; };
+		8350B0492F5F399800A0A453 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8350B0482F5F399800A0A453 /* Preview Assets.xcassets */; };
+		8350B0572F60330500A0A453 /* Inter_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8350B0562F60330500A0A453 /* Inter_18pt-SemiBold.ttf */; };
+		8350B0592F60333800A0A453 /* Inter_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8350B0582F60333800A0A453 /* Inter_18pt-Medium.ttf */; };
+		8350B05E2F60334F00A0A453 /* Inter_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8350B05A2F60334F00A0A453 /* Inter_18pt-Bold.ttf */; };
+		8350B05F2F60334F00A0A453 /* Inter_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8350B05B2F60334F00A0A453 /* Inter_18pt-Black.ttf */; };
+		8350B0602F60334F00A0A453 /* Inter_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8350B05C2F60334F00A0A453 /* Inter_18pt-Regular.ttf */; };
+		8350B0612F60334F00A0A453 /* Inter_18pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8350B05D2F60334F00A0A453 /* Inter_18pt-Light.ttf */; };
+		8350B0662F60342300A0A453 /* Inter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0652F60342300A0A453 /* Inter.swift */; };
+		8350B0682F60345200A0A453 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0672F60345200A0A453 /* OnboardingView.swift */; };
+		8350B06C2F606CB800A0A453 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B06B2F606CB800A0A453 /* View.swift */; };
+		8350B06E2F6321F200A0A453 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B06D2F6321F200A0A453 /* QuizView.swift */; };
+		8350B0702F63228B00A0A453 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B06F2F63228B00A0A453 /* QuizViewModel.swift */; };
+		8350B0722F6322C300A0A453 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0712F6322C300A0A453 /* QuizModel.swift */; };
+		8350B0742F63260600A0A453 /* SkinTypeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0732F63260600A0A453 /* SkinTypeStepView.swift */; };
+		8350B0762F6331A900A0A453 /* SkinConcernStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0752F6331A900A0A453 /* SkinConcernStepView.swift */; };
+		8350B0782F63350800A0A453 /* SkinRoutineStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0772F63350800A0A453 /* SkinRoutineStepView.swift */; };
+		8350B07A2F63F23F00A0A453 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0792F63F23F00A0A453 /* Product.swift */; };
+		8350B07C2F63F27400A0A453 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B07B2F63F27400A0A453 /* UserProfile.swift */; };
+		8350B07E2F63F29300A0A453 /* RoutineStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B07D2F63F29300A0A453 /* RoutineStep.swift */; };
+		8350B0802F63F2B600A0A453 /* FavouriteProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B07F2F63F2B600A0A453 /* FavouriteProduct.swift */; };
+		8350B0822F63F3AB00A0A453 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 8350B0812F63F3AB00A0A453 /* products.json */; };
+		8350B0842F64405700A0A453 /* ProductLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0832F64405700A0A453 /* ProductLoader.swift */; };
+		8350B0882F64648100A0A453 /* RoutineBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0872F64648100A0A453 /* RoutineBuilder.swift */; };
+		8350B08B2F64670600A0A453 /* RoutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B08A2F64670600A0A453 /* RoutineView.swift */; };
+		8350B08D2F646B3700A0A453 /* RoutineHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B08C2F646B3700A0A453 /* RoutineHeader.swift */; };
+		8350B08F2F653AC100A0A453 /* UserProfileBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B08E2F653AC100A0A453 /* UserProfileBuilder.swift */; };
+		8350B0912F653C7000A0A453 /* QuizHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0902F653C7000A0A453 /* QuizHeaderView.swift */; };
+		8350B0942F656C0B00A0A453 /* RecommendedProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0932F656C0B00A0A453 /* RecommendedProductsView.swift */; };
+		8350B0962F65726400A0A453 /* RecommendedProductsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0952F65726400A0A453 /* RecommendedProductsHeader.swift */; };
+		8350B0982F65788800A0A453 /* RoutineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B0972F65788800A0A453 /* RoutineCard.swift */; };
+		8350B09C2F6578A500A0A453 /* RoutineBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350B09B2F6578A500A0A453 /* RoutineBody.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8350B03E2F5F399400A0A453 /* SkinCare App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkinCare App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8350B0412F5F399400A0A453 /* SkinCare_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinCare_AppApp.swift; sourceTree = "<group>"; };
+		8350B0432F5F399400A0A453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8350B0452F5F399800A0A453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8350B0482F5F399800A0A453 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8350B0562F60330500A0A453 /* Inter_18pt-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		8350B0582F60333800A0A453 /* Inter_18pt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Medium.ttf"; sourceTree = "<group>"; };
+		8350B05A2F60334F00A0A453 /* Inter_18pt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Bold.ttf"; sourceTree = "<group>"; };
+		8350B05B2F60334F00A0A453 /* Inter_18pt-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Black.ttf"; sourceTree = "<group>"; };
+		8350B05C2F60334F00A0A453 /* Inter_18pt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Regular.ttf"; sourceTree = "<group>"; };
+		8350B05D2F60334F00A0A453 /* Inter_18pt-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_18pt-Light.ttf"; sourceTree = "<group>"; };
+		8350B0622F60337C00A0A453 /* SkinCare-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SkinCare-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8350B0652F60342300A0A453 /* Inter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inter.swift; sourceTree = "<group>"; };
+		8350B0672F60345200A0A453 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8350B06B2F606CB800A0A453 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		8350B06D2F6321F200A0A453 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		8350B06F2F63228B00A0A453 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		8350B0712F6322C300A0A453 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		8350B0732F63260600A0A453 /* SkinTypeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeStepView.swift; sourceTree = "<group>"; };
+		8350B0752F6331A900A0A453 /* SkinConcernStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinConcernStepView.swift; sourceTree = "<group>"; };
+		8350B0772F63350800A0A453 /* SkinRoutineStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinRoutineStepView.swift; sourceTree = "<group>"; };
+		8350B0792F63F23F00A0A453 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8350B07B2F63F27400A0A453 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		8350B07D2F63F29300A0A453 /* RoutineStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineStep.swift; sourceTree = "<group>"; };
+		8350B07F2F63F2B600A0A453 /* FavouriteProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteProduct.swift; sourceTree = "<group>"; };
+		8350B0812F63F3AB00A0A453 /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		8350B0832F64405700A0A453 /* ProductLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductLoader.swift; sourceTree = "<group>"; };
+		8350B0872F64648100A0A453 /* RoutineBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineBuilder.swift; sourceTree = "<group>"; };
+		8350B08A2F64670600A0A453 /* RoutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineView.swift; sourceTree = "<group>"; };
+		8350B08C2F646B3700A0A453 /* RoutineHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineHeader.swift; sourceTree = "<group>"; };
+		8350B08E2F653AC100A0A453 /* UserProfileBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileBuilder.swift; sourceTree = "<group>"; };
+		8350B0902F653C7000A0A453 /* QuizHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHeaderView.swift; sourceTree = "<group>"; };
+		8350B0932F656C0B00A0A453 /* RecommendedProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductsView.swift; sourceTree = "<group>"; };
+		8350B0952F65726400A0A453 /* RecommendedProductsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductsHeader.swift; sourceTree = "<group>"; };
+		8350B0972F65788800A0A453 /* RoutineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineCard.swift; sourceTree = "<group>"; };
+		8350B09B2F6578A500A0A453 /* RoutineBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineBody.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8350B03B2F5F399400A0A453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8350B0352F5F399400A0A453 = {
+			isa = PBXGroup;
+			children = (
+				8350B0402F5F399400A0A453 /* SkinCare App */,
+				8350B03F2F5F399400A0A453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8350B03F2F5F399400A0A453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8350B03E2F5F399400A0A453 /* SkinCare App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8350B0402F5F399400A0A453 /* SkinCare App */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0452F5F399800A0A453 /* Assets.xcassets */,
+				8350B0472F5F399800A0A453 /* Preview Content */,
+				8350B0632F60340500A0A453 /* Helpers */,
+				8350B0622F60337C00A0A453 /* SkinCare-App-Info.plist */,
+				8350B0532F5F3BFC00A0A453 /* Models */,
+				8350B0522F5F3BEC00A0A453 /* Services */,
+				8350B0512F5F3BDC00A0A453 /* ViewModels */,
+				8350B0502F5F3BCD00A0A453 /* Views */,
+				8350B0412F5F399400A0A453 /* SkinCare_AppApp.swift */,
+				8350B0432F5F399400A0A453 /* ContentView.swift */,
+				8350B04F2F5F3BAE00A0A453 /* Resources */,
+			);
+			path = "SkinCare App";
+			sourceTree = "<group>";
+		};
+		8350B0472F5F399800A0A453 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0482F5F399800A0A453 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8350B04F2F5F3BAE00A0A453 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0552F6032BA00A0A453 /* Font */,
+				8350B0792F63F23F00A0A453 /* Product.swift */,
+				8350B0812F63F3AB00A0A453 /* products.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8350B0502F5F3BCD00A0A453 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0922F656BEE00A0A453 /* RecommendedProducts */,
+				8350B0892F6466EC00A0A453 /* PersonalRoutine */,
+				8350B0542F60326E00A0A453 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8350B0512F5F3BDC00A0A453 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8350B06F2F63228B00A0A453 /* QuizViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8350B0522F5F3BEC00A0A453 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0872F64648100A0A453 /* RoutineBuilder.swift */,
+				8350B08E2F653AC100A0A453 /* UserProfileBuilder.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8350B0532F5F3BFC00A0A453 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0712F6322C300A0A453 /* QuizModel.swift */,
+				8350B07B2F63F27400A0A453 /* UserProfile.swift */,
+				8350B07D2F63F29300A0A453 /* RoutineStep.swift */,
+				8350B07F2F63F2B600A0A453 /* FavouriteProduct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8350B0542F60326E00A0A453 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0672F60345200A0A453 /* OnboardingView.swift */,
+				8350B06D2F6321F200A0A453 /* QuizView.swift */,
+				8350B0732F63260600A0A453 /* SkinTypeStepView.swift */,
+				8350B0752F6331A900A0A453 /* SkinConcernStepView.swift */,
+				8350B0772F63350800A0A453 /* SkinRoutineStepView.swift */,
+				8350B0902F653C7000A0A453 /* QuizHeaderView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8350B0552F6032BA00A0A453 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8350B05B2F60334F00A0A453 /* Inter_18pt-Black.ttf */,
+				8350B05A2F60334F00A0A453 /* Inter_18pt-Bold.ttf */,
+				8350B05D2F60334F00A0A453 /* Inter_18pt-Light.ttf */,
+				8350B05C2F60334F00A0A453 /* Inter_18pt-Regular.ttf */,
+				8350B0582F60333800A0A453 /* Inter_18pt-Medium.ttf */,
+				8350B0562F60330500A0A453 /* Inter_18pt-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8350B0632F60340500A0A453 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0692F606CA100A0A453 /* Extensions */,
+				8350B0642F60340E00A0A453 /* Font */,
+				8350B0832F64405700A0A453 /* ProductLoader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8350B0642F60340E00A0A453 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0652F60342300A0A453 /* Inter.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8350B0692F606CA100A0A453 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8350B06A2F606CB000A0A453 /* View */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8350B06A2F606CB000A0A453 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8350B06B2F606CB800A0A453 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8350B0892F6466EC00A0A453 /* PersonalRoutine */ = {
+			isa = PBXGroup;
+			children = (
+				8350B08A2F64670600A0A453 /* RoutineView.swift */,
+				8350B08C2F646B3700A0A453 /* RoutineHeader.swift */,
+				8350B0972F65788800A0A453 /* RoutineCard.swift */,
+				8350B09B2F6578A500A0A453 /* RoutineBody.swift */,
+			);
+			path = PersonalRoutine;
+			sourceTree = "<group>";
+		};
+		8350B0922F656BEE00A0A453 /* RecommendedProducts */ = {
+			isa = PBXGroup;
+			children = (
+				8350B0932F656C0B00A0A453 /* RecommendedProductsView.swift */,
+				8350B0952F65726400A0A453 /* RecommendedProductsHeader.swift */,
+			);
+			path = RecommendedProducts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8350B03D2F5F399400A0A453 /* SkinCare App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8350B04C2F5F399800A0A453 /* Build configuration list for PBXNativeTarget "SkinCare App" */;
+			buildPhases = (
+				8350B03A2F5F399400A0A453 /* Sources */,
+				8350B03B2F5F399400A0A453 /* Frameworks */,
+				8350B03C2F5F399400A0A453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkinCare App";
+			productName = "SkinCare App";
+			productReference = 8350B03E2F5F399400A0A453 /* SkinCare App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8350B0362F5F399400A0A453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8350B03D2F5F399400A0A453 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 8350B0392F5F399400A0A453 /* Build configuration list for PBXProject "SkinCare App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8350B0352F5F399400A0A453;
+			productRefGroup = 8350B03F2F5F399400A0A453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8350B03D2F5F399400A0A453 /* SkinCare App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8350B03C2F5F399400A0A453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8350B0492F5F399800A0A453 /* Preview Assets.xcassets in Resources */,
+				8350B0592F60333800A0A453 /* Inter_18pt-Medium.ttf in Resources */,
+				8350B05F2F60334F00A0A453 /* Inter_18pt-Black.ttf in Resources */,
+				8350B0822F63F3AB00A0A453 /* products.json in Resources */,
+				8350B0612F60334F00A0A453 /* Inter_18pt-Light.ttf in Resources */,
+				8350B0462F5F399800A0A453 /* Assets.xcassets in Resources */,
+				8350B05E2F60334F00A0A453 /* Inter_18pt-Bold.ttf in Resources */,
+				8350B0602F60334F00A0A453 /* Inter_18pt-Regular.ttf in Resources */,
+				8350B0572F60330500A0A453 /* Inter_18pt-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8350B03A2F5F399400A0A453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8350B0882F64648100A0A453 /* RoutineBuilder.swift in Sources */,
+				8350B0662F60342300A0A453 /* Inter.swift in Sources */,
+				8350B0682F60345200A0A453 /* OnboardingView.swift in Sources */,
+				8350B0912F653C7000A0A453 /* QuizHeaderView.swift in Sources */,
+				8350B0982F65788800A0A453 /* RoutineCard.swift in Sources */,
+				8350B0702F63228B00A0A453 /* QuizViewModel.swift in Sources */,
+				8350B0962F65726400A0A453 /* RecommendedProductsHeader.swift in Sources */,
+				8350B06C2F606CB800A0A453 /* View.swift in Sources */,
+				8350B07E2F63F29300A0A453 /* RoutineStep.swift in Sources */,
+				8350B08F2F653AC100A0A453 /* UserProfileBuilder.swift in Sources */,
+				8350B08D2F646B3700A0A453 /* RoutineHeader.swift in Sources */,
+				8350B0762F6331A900A0A453 /* SkinConcernStepView.swift in Sources */,
+				8350B0842F64405700A0A453 /* ProductLoader.swift in Sources */,
+				8350B07A2F63F23F00A0A453 /* Product.swift in Sources */,
+				8350B08B2F64670600A0A453 /* RoutineView.swift in Sources */,
+				8350B09C2F6578A500A0A453 /* RoutineBody.swift in Sources */,
+				8350B0722F6322C300A0A453 /* QuizModel.swift in Sources */,
+				8350B0442F5F399400A0A453 /* ContentView.swift in Sources */,
+				8350B0742F63260600A0A453 /* SkinTypeStepView.swift in Sources */,
+				8350B0782F63350800A0A453 /* SkinRoutineStepView.swift in Sources */,
+				8350B0802F63F2B600A0A453 /* FavouriteProduct.swift in Sources */,
+				8350B0942F656C0B00A0A453 /* RecommendedProductsView.swift in Sources */,
+				8350B0422F5F399400A0A453 /* SkinCare_AppApp.swift in Sources */,
+				8350B06E2F6321F200A0A453 /* QuizView.swift in Sources */,
+				8350B07C2F63F27400A0A453 /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8350B04A2F5F399800A0A453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8350B04B2F5F399800A0A453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8350B04D2F5F399800A0A453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinCare App/Preview Content\"";
+				DEVELOPMENT_TEAM = TPK9566KWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkinCare-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gulnazka.SkinCare-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8350B04E2F5F399800A0A453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkinCare App/Preview Content\"";
+				DEVELOPMENT_TEAM = TPK9566KWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SkinCare-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gulnazka.SkinCare-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8350B0392F5F399400A0A453 /* Build configuration list for PBXProject "SkinCare App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8350B04A2F5F399800A0A453 /* Debug */,
+				8350B04B2F5F399800A0A453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8350B04C2F5F399800A0A453 /* Build configuration list for PBXNativeTarget "SkinCare App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8350B04D2F5F399800A0A453 /* Debug */,
+				8350B04E2F5F399800A0A453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8350B0362F5F399400A0A453 /* Project object */;
+}
