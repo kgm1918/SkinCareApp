@@ -24,6 +24,11 @@ The app includes an interactive quiz that analyzes user input and provides a rou
 
 This project follows the **MVVM** architecture pattern to separate UI, business logic, and data models.
 
+## Testing
+
+The onboarding quiz logic is covered by 25 unit tests written with Swift Testing,
+including parameterised tests. They run on every push via GitHub Actions.
+
 ## Demo
 
 <img src="skincareapp.gif" width="200">
